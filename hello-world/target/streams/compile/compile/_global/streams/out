@@ -1,13 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:28:13: ambiguous reference to overloaded definition,[0m
-[0m[[0m[31merror[0m] [0m[0mboth method add in object Main of type (x: Int, y: Int): Int[0m
-[0m[[0m[31merror[0m] [0m[0mand  value add in object Main of type (Int, Int) => Int[0m
-[0m[[0m[31merror[0m] [0m[0mmatch argument types (Int,Int) and expected result type Any[0m
-[0m[[0m[31merror[0m] [0m[0m    println(add(1, 2)) // 3[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:35:13: ambiguous reference to overloaded definition,[0m
-[0m[[0m[31merror[0m] [0m[0mboth method add in object Main of type (x: Int, y: Int): Int[0m
-[0m[[0m[31merror[0m] [0m[0mand  value add in object Main of type (Int, Int) => Int[0m
-[0m[[0m[31merror[0m] [0m[0mmatch argument types (Int,Int) and expected result type Any[0m
-[0m[[0m[31merror[0m] [0m[0m    println(add(1, 2)) // 3[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
