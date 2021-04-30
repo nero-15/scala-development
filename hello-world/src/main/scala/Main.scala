@@ -72,4 +72,17 @@ object Main extends App {
     } else {
       println(point + " と " + yetAnotherPoint + " は異なります。")
     } // Point(1,2) と Point(2,2) は異なります。
+
+    // object
+    object IdFactory {
+      private var counter = 0
+      def create(): Int = {
+        counter += 1
+        counter
+      }
+    }
+    val newId: Int = IdFactory.create()
+    println(newId) // 1
+    val newerId: Int = IdFactory.create()
+    println(newerId) // 2
 }
