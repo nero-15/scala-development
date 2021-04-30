@@ -45,4 +45,13 @@ object Main extends App {
       square.toString
     }
     println(getSquareString(2.5)) // 6.25
+
+    // class
+    class Greeter(prefix: String, suffix: String) {
+      def greet(name: String): Unit =
+        println(prefix + name + suffix)
+    }
+
+    val greeter = new Greeter("Hello, ", "!")
+    greeter.greet("Scala developer") // Hello, Scala developer!
 }
