@@ -2,14 +2,20 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Cat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Cat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Dog.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Dog.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$HairColor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$HairColor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$IntIterator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$IntIterator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$Iterator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Iterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Pet.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Pet.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
