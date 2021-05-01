@@ -18,6 +18,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$Point.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$Point$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes.bak[0m
