@@ -126,20 +126,13 @@ object Main extends App {
     class User
     val user1 = new User
 
-    class Point(var x: Int, var y: Int) {
+    class Point(var x: Int = 0, var y: Int = 0)
 
-      def move(dx: Int, dy: Int): Unit = {
-        x = x + dx
-        y = y + dy
-      }
-
-      override def toString: String =
-        s"($x, $y)"
-    }
-
-    val point1 = new Point(2, 3)
-    point1.x  // 2
-    println(point1)  // prints (2, 3)
+    val origin = new Point  // x と y には共に0がセットされます。
+    val point1 = new Point(1)
+    println(point1.x)  // 1 が出力されます。
+    val point2 = new Point(y=2)
+    println(point2.y)  // 2 が出力されます。
 
 
 }
