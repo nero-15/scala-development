@@ -1,2 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:141:12: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    point1.x  // 2[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m1 deprecation; re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
