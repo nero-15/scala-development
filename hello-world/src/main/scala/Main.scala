@@ -107,4 +107,14 @@ object Main extends App {
     val customGreeter = new CustomizableGreeter("How are you, ", "?")
     customGreeter.greet("Scala developer") // How are you, Scala developer?
 
+    val list: List[Any] = List(
+      "a string",
+      732,  // integer
+      'c',  // character
+      true, // boolean value
+      () => "文字列を返す無名関数"
+    )
+
+    list.foreach(element => println(element))
+
 }
