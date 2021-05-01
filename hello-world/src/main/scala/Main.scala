@@ -1,4 +1,5 @@
 object Main extends App {
+    /*
     println(1) // 1
     println(1 + 1) // 2
     println("Hello!") // Hello!
@@ -47,12 +48,10 @@ object Main extends App {
     println(getSquareString(2.5)) // 6.25
 
     // class
-    /*
     class Greeter(prefix: String, suffix: String) {
       def greet(name: String): Unit =
         println(prefix + name + suffix)
     }
-    */
 
     //val greeter = new Greeter("Hello, ", "!")
     //greeter.greet("Scala developer") // Hello, Scala developer!
@@ -106,6 +105,7 @@ object Main extends App {
 
     val customGreeter = new CustomizableGreeter("How are you, ", "?")
     customGreeter.greet("Scala developer") // How are you, Scala developer?
+    */
 
     val list: List[Any] = List(
       "a string",
@@ -116,5 +116,11 @@ object Main extends App {
     )
 
     list.foreach(element => println(element))
+
+    val x: Long = 987654321
+    val y: Float = x  // 9.8765434E8 (この場合精度が落ちることに注意してください)
+
+    val face: Char = '☺'
+    val number: Int = face  // 9786
 
 }
