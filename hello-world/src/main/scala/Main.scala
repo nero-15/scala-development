@@ -134,7 +134,7 @@ object Main extends App {
     println(point1.x)  // 1 が出力されます。
     val point2 = new Point(y=2)
     println(point2.y)  // 2 が出力されます。
-    */
+
 
     class Point {
       private var _x = 0
@@ -157,6 +157,30 @@ object Main extends App {
     val point1 = new Point
     point1.x = 99
     point1.y = 101 // 警告が出力されます。
+    */
+
+    trait HairColor
+    trait Iterator[A] {
+      def hasNext: Boolean
+      def next(): A
+    }
+
+    class IntIterator(to: Int) extends Iterator[Int] {
+      private var current = 0
+      override def hasNext: Boolean = current < to
+      override def next(): Int =  {
+        if (hasNext) {
+          val t = current
+          current += 1
+          t
+        } else 0
+      }
+    }
+
+
+    val iterator = new IntIterator(10)
+    println(iterator.next())  // returns 0
+    println(iterator.next())  // returns 1
 
 
 }
