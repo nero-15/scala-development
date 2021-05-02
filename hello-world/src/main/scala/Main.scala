@@ -105,7 +105,7 @@ object Main extends App {
 
     val customGreeter = new CustomizableGreeter("How are you, ", "?")
     customGreeter.greet("Scala developer") // How are you, Scala developer?
-    */
+
 
     val list: List[Any] = List(
       "a string",
@@ -126,7 +126,7 @@ object Main extends App {
     class User
     val user1 = new User
 
-    /*
+
     class Point(var x: Int = 0, var y: Int = 0)
 
     val origin = new Point  // x と y には共に0がセットされます。
@@ -157,7 +157,7 @@ object Main extends App {
     val point1 = new Point
     point1.x = 99
     point1.y = 101 // 警告が出力されます。
-    */
+
 
     trait HairColor
     trait Iterator[A] {
@@ -198,6 +198,30 @@ object Main extends App {
     animals.append(dog)
     animals.append(cat)
     animals.foreach(pet => println(pet.name))  // Prints Harry Sally
+    */
+
+    val ingredient = ("Sugar" , 25)
+    println(ingredient._1) // Sugar
+    println(ingredient._2) // 25
+
+    val (name, quantity) = ingredient
+    println(name) // Sugar
+    println(quantity) // 25
+
+    val planets =
+      List(("Mercury", 57.9), ("Venus", 108.2), ("Earth", 149.6),
+           ("Mars", 227.9), ("Jupiter", 778.3))
+    planets.foreach{
+      case ("Earth", distance) =>
+        println(s"Our planet is $distance million kilometers from the sun")
+      case _ =>
+    }
+
+    val numPairs = List((2, 5), (3, -7), (20, 56))
+    for ((a, b) <- numPairs) {
+      println(a * b)
+    }
+
 
 
 }
