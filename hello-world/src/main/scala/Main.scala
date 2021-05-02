@@ -261,7 +261,7 @@ object Main extends App {
     class RichStringIter extends StringIterator("Scala") with RichIterator
     val richStringIter = new RichStringIter
     richStringIter foreach println
-    */
+
 
     val salaries = Seq(20000, 70000, 40000)
     val doubleSalary = (x: Int) => x * 2
@@ -297,6 +297,18 @@ object Main extends App {
     println("Factorial of 2: " + factorial(2))
     println("Factorial of 3: " + factorial(3))
 
+    val numbers = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val res = numbers.foldLeft(0)((m, n) => m + n)
+    println(res) // 55
+    */
+
+
+    val numbers = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val numberFunc = numbers.foldLeft(List[Int]()) _
+    val squares = numberFunc((xs, x) => xs :+ x*x)
+    print(squares) // List(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+    val cubes = numberFunc((xs, x) => xs :+ x*x*x)
+    print(cubes)  // List(1, 8, 27, 64, 125, 216, 343, 512, 729, 1000)
 
 
 }
