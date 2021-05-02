@@ -369,7 +369,7 @@ object Main extends App {
     println(showNotification(someSms))  // You got an SMS from 12345! Message: Are you there? が出力されます。
 
     println(showNotification(someVoiceRecording))  // you received a Voice Recording from Tom! Click the link to hear it: voicerecording.org/id/123 が出力されます。
-    */
+
 
     import scala.util.matching.Regex
 
@@ -394,6 +394,25 @@ object Main extends App {
 
     for (patternMatch <- keyValPattern.findAllMatchIn(input))
       println(s"key: ${patternMatch.group(1)} value: ${patternMatch.group(2)}")
+    */
+
+    import scala.util.Random
+
+     object CustomerID {
+
+       def apply(name: String) = s"$name--${Random.nextLong}"
+
+       def unapply(customerID: String): Option[String] = {
+         val stringArray: Array[String] = customerID.split("--")
+         if (stringArray.tail.nonEmpty) Some(stringArray.head) else None
+       }
+     }
+
+     val customer1ID = CustomerID("Sukyoung")  // Sukyoung--23098234908
+     customer1ID match {
+       case CustomerID(name) => println(name)  // prints Sukyoung
+       case _ => println("Could not extract a CustomerID")
+     }
 
 
 }
