@@ -1,10 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:325:14: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m    message5.sender  // travis@washington.us[0m
-[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:326:14: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m    message5.recipient // claire@bourgogne.fr[0m
-[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:327:14: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m    message5.body  // "Me zo o komz gant ma amezeg"[0m
-[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\tak\devel\scala-development\hello-world\src\main\scala\Main.scala:376:5: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m    package logging[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
