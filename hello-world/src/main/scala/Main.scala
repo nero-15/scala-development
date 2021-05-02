@@ -414,5 +414,17 @@ object Main extends App {
        case _ => println("Could not extract a CustomerID")
      }
 
+     case class User(name: String, age: Int)
+
+    val userBase = List(User("Travis", 28),
+      User("Kelly", 33),
+      User("Jennifer", 44),
+      User("Dennis", 23))
+
+    val twentySomethings = for (user <- userBase if (user.age >=20 && user.age < 30))
+      yield user.name  // これをリストに追加する
+
+    twentySomethings.foreach(name => println(name))  // prints Travis Dennis
+
 
 }
