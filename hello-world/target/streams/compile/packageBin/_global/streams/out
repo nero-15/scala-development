@@ -2,8 +2,24 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$A.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$A.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$AbsIterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$AbsIterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$B.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$B.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$C.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$C.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$D.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$D.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$RichIterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$RichIterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$RichStringIter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$RichStringIter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$StringIterator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$StringIterator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
