@@ -310,5 +310,21 @@ object Main extends App {
     val cubes = numberFunc((xs, x) => xs :+ x*x*x)
     print(cubes)  // List(1, 8, 27, 64, 125, 216, 343, 512, 729, 1000)
 
+    case class Message(sender: String, recipient: String, body: String)
+    val message1 = Message("guillaume@quebec.ca", "jorge@catalonia.es", "Ça va ?")
+
+    println(message1.sender)  // guillaume@quebec.ca が出力されます
+    //message1.sender = "travis@washington.us"  // この行はコンパイルされません
+
+    val message2 = Message("jorge@catalonia.es", "guillaume@quebec.ca", "Com va?")
+    val message3 = Message("jorge@catalonia.es", "guillaume@quebec.ca", "Com va?")
+    val messagesAreTheSame = message2 == message3  // true
+
+    val message4 = Message("julien@bretagne.fr", "travis@washington.us", "Me zo o komz gant ma amezeg")
+    val message5 = message4.copy(sender = message4.recipient, recipient = "claire@bourgogne.fr")
+    println(message5.sender)  // travis@washington.us
+    println(message5.recipient) // claire@bourgogne.fr
+    println(message5.body)  // "Me zo o komz gant ma amezeg"
+
 
 }
