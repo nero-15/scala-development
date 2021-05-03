@@ -515,6 +515,22 @@ object Main extends App {
       cloned
     }
 
+    trait User {
+      def username: String
+    }
+
+    trait Tweeter {
+      this: User =>  // thisが再割り当てされます
+      def tweet(tweetText: String) = println(s"$username: $tweetText")
+    }
+
+    class VerifiedTweeter(val username_ : String) extends Tweeter with User {  // TweeterがUserを必要とするためミックスインします。
+    	def username = s"real $username_"
+    }
+
+    val realBeyoncé = new VerifiedTweeter("Beyoncé")
+    realBeyoncé.tweet("Just spilled my glass of lemonade")  // "real Beyoncé: Just spilled my glass of lemonade"と出力します。
+
 
 
 }
