@@ -394,7 +394,7 @@ object Main extends App {
 
     for (patternMatch <- keyValPattern.findAllMatchIn(input))
       println(s"key: ${patternMatch.group(1)} value: ${patternMatch.group(2)}")
-    */
+
 
     import scala.util.Random
 
@@ -443,6 +443,14 @@ object Main extends App {
     stack.push(2)
     println(stack.pop)  // prints 2
     println(stack.pop)  // prints 1
+
+    //TODO : 変位指定、上限型限界、下限型限界
+    // https://docs.scala-lang.org/ja/tour/variances.html
+    // https://docs.scala-lang.org/ja/tour/upper-type-bounds.html
+    // https://docs.scala-lang.org/ja/tour/lower-type-bounds.html
+    */
+
+
 
 
 }
