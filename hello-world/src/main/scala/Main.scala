@@ -567,6 +567,14 @@ object Main extends App {
     println(listOfDuplicates[Int](3, 4))  // List(3, 3, 3, 3)
     println(listOfDuplicates("La", 8))  // List(La, La, La, La, La, La, La, La)
 
+    val businessName = "Montreux Jazz Café"
+    def squareOf(x: Int) = x * x
+    case class MyPair[A, B](x: A, y: B)
+    val p = MyPair(1, "scala") // 型: MyPair[Int, String]
+
+    def id[T](x: T) = x
+    val q = id(1)              // 型: Int
+
 
 
 }
