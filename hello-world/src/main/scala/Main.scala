@@ -575,6 +575,21 @@ object Main extends App {
     def id[T](x: T) = x
     val q = id(1)              // 型: Int
 
+    Seq(1, 3, 4).map(x => x * 2)  // List(2, 6, 8)
+
+    println(10.+(1))
+
+    case class Vec(x: Double, y: Double) {
+      def +(that: Vec) = Vec(this.x + that.x, this.y + that.y)
+    }
+
+    val vector1 = Vec(1.0, 1.0)
+    val vector2 = Vec(2.0, 2.0)
+
+    val vector3 = vector1 + vector2
+    println(vector3.x)  // 3.0
+    println(vector3.y)  // 3.0
+
 
 
 }
