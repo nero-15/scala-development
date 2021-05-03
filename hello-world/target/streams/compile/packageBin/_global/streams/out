@@ -2,6 +2,12 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Graph$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Graph$Node.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Graph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main$Graph.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tak\devel\scala-development\hello-world\target\scala-2.13\classes\Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
