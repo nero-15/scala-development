@@ -604,6 +604,13 @@ object Main extends App {
       i -= 1
     }  // prints 2 1
 
+    object DeprecationDemo extends App {
+      @deprecated("deprecation message", "release # which deprecates method")
+      def hello = "hola"
+
+      hello
+    }
+
 
 
 }
