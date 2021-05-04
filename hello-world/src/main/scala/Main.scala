@@ -556,7 +556,7 @@ object Main extends App {
         println(sum(List("a", "b", "c"))) // stringMonoidを暗に使用
       }
     }
-    */
+
 
     def listOfDuplicates[A](x: A, length: Int): List[A] = {
       if (length < 1)
@@ -610,6 +610,7 @@ object Main extends App {
 
       hello
     }
+    */
 
 
 
