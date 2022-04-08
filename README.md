@@ -1,2 +1,2 @@
 # scala-development
-scala開発（学習）用
+scala学習用
